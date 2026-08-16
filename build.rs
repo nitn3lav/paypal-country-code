@@ -62,9 +62,10 @@ fn generate_rust(entries: &[(&str, &str)]) -> String {
 pub enum PaypalCountryCode {"#,
     );
 
-    for (_, code) in entries {
+    for (name, code) in entries {
         output.push_str(&format!(
             r#"
+    /// {name}
     {code},"#
         ));
     }

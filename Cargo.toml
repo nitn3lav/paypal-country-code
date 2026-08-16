@@ -1,6 +1,6 @@
 [package]
 name = "paypal-country-code"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["K. Valentin Leistner <git@valentinleistner.com>"]
 license = "MIT OR Apache-2.0"
 description = "PayPal country codes, automatically generated from https://developer.paypal.com/reference/country-codes.md"
